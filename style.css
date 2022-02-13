@@ -13,7 +13,6 @@
 
 body{
     background-color: var(--tea-green);
-    font-family: 'Inter', sans-serif;
     font-family: 'Domine', serif;
     font-size: 18px;
 }
@@ -31,6 +30,10 @@ header{
     background-position: 0 0,10px 10px;
 }
 
+.fleet-structure{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
 
 footer {
     position: absolute;
