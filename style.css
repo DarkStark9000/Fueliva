@@ -13,7 +13,7 @@
 
 body{
     background-color: var(--tea-green);
-    font-family: 'Domine', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
 }
 
@@ -21,8 +21,24 @@ a{
     text-decoration: none;
     color: var(--raisin-black);
 }
+button{
+    background-color: var(--raisin-black);
+    color: var(--granny-smith-apple);
+   
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    
+    padding: 24px;
+    border: none;
+    border-radius: 14px;
+    outline: none;
+    cursor: pointer;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 header{
+    font-family: 'Domine', serif; 
     background-color: var(--raisin-black);
     opacity: 0.8;
     background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
@@ -37,8 +53,7 @@ header{
     align-items: center;
 }
 
-.toprow{
-    font-family: 'Inter', sans-serif;
+.toprow, .midrow{
     font-size: 18px;
 
     display: flex;
@@ -56,6 +71,7 @@ header{
     align-items: center;
 }
 footer {
+    font-family: 'Domine', serif; 
     position: absolute;
     bottom: 0;
     width: 100%;
