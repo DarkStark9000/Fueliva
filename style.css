@@ -31,4 +31,7 @@ footer {
 
     background-color: var(--raisin-black);
     color: var(--mauve);
+
+    padding: 20px;
+    text-align: center;
   }
