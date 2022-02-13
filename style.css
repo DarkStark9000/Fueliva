@@ -50,7 +50,10 @@ header{
     letter-spacing: 1px;
 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+}
+header > h3{
+    letter-spacing: 0.7px;
+    font-size: 22px;
 }
 
 .fleet-structure, .fleet-dist, .fleet-load{ 
