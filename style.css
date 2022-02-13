@@ -36,6 +36,9 @@ button{
     
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+button:hover{
+    background-color: #2e3036;
+}
 
 input{
     border: 1.2px solid #212227;
