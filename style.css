@@ -27,7 +27,7 @@ button{
     
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    
+    font-weight: 500;
     padding: 24px;
     border: none;
     border-radius: 14px;
@@ -66,7 +66,8 @@ header > h3{
 }
 
 calrow p{
-    padding: 12px;
+    margin: 24px;
+    font-weight: 600;
 }
 
 .fleet-structure, .fleet-dist, .fleet-load{ 
@@ -96,6 +97,7 @@ calrow p{
     
     padding: 24px;
 }
+
 footer {
     margin: 0;
     margin-top: 8vh;
