@@ -30,7 +30,7 @@ header{
     background-position: 0 0,10px 10px;
 }
 
-.fleet-structure, .fleet-dist{ 
+.fleet-structure, .fleet-dist, .fleet-load{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
