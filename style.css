@@ -20,8 +20,17 @@ body{
 
 a{
     text-decoration: none;
-    color: aliceblue;
+    color: ;
 }
+
+header{
+    background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
+}
+
 
 footer {
     position: absolute;
@@ -34,4 +43,9 @@ footer {
 
     padding: 16px;
     text-align: center;
-  }
+}
+
+footer > a{
+    font-weight: 600;
+    color: var(--mauve);
+}
