@@ -30,7 +30,7 @@ header{
     background-position: 0 0,10px 10px;
 }
 
-.fleet-structure{
+.fleet-structure, .fleet-dist{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
 }
