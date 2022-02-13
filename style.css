@@ -48,6 +48,13 @@ header{
 
     column-gap: 10vw;
 }
+
+.calrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 footer {
     position: absolute;
     bottom: 0;

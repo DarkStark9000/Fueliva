@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-     
+    
     <base target="_blank">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,53 +23,62 @@
         <h1>Fueliva</h1>  
         <h3>Smart Fuel calculator for the smarter and Greener You!</h3>
     </header>
-    <div class="toprow">
-    <div class="fleet-structure">
-        <p>Enter your Fleet details</p>
-        <label for="TruckNo">Freightliners</label>
-        <input type="text" id="TruckNo" name="TruckNo"><br><br>
-
-        <label for="MedTruckNo">Medium Truck</label>
-        <input type="text" id="MedTruckNo" name="MedTruckNo"><br><br>
+    <div class="calrow">
+        <div class="toprow">
+            <div class="fleet-structure">
+                <p>Enter your Fleet details</p>
+                <label for="TruckNo">Freightliners</label>
+                <input type="text" id="TruckNo" name="TruckNo"><br><br>
+                
+                <label for="MedTruckNo">Medium Truck</label>
+                <input type="text" id="MedTruckNo" name="MedTruckNo"><br><br>
+                
+                <label for="SmoTruckNo">Smaller / Delivery Vans</label>
+                <input type="text" id="SmoTruckNo" name="SmoTruckNo"><br><br>
+                
+                <label for="DelBikeNo">Delivery Bikes</label>
+                <input type="text" id="DelBikeNo" name="DelBikeNo"><br><br>
+            </div>
+            
+            <div class="fleet-dist">
+                <p>Enter estimated distance travelled by your Fleet</p>
+                <label for="TruckDist">Freightliners</label>
+                <input type="text" id="TruckDist" name="TruckDist"><br><br>
+                
+                <label for="MedTruckDist">Medium Truck</label>
+                <input type="text" id="MedTruckDist" name="MedTruckDist"><br><br>
+                
+                <label for="SmoTruckDist">Smaller / Delivery Vans</label>
+                <input type="text" id="SmoTruckDist" name="SmoTruckDist"><br><br>
+                
+                <label for="DelBikeDist">Delivery Bikes</label>
+                <input type="text" id="DelBikeDist" name="DelBikeDist"><br><br>
+            </div>
+            
+            <div class="fleet-load">
+                <p>Enter estimated load for your Fleet</p>
+                <label for="TruckLoad">Freightliners</label>
+                <input type="text" id="TruckLoad" name="TruckLoad"><br><br>
+                
+                <label for="MedTruckLoad">Medium Truck</label>
+                <input type="text" id="MedLoad" name="MedTruckLoad"><br><br>
+                
+                <label for="SmoTruckLoad">Smaller / Delivery Vans</label>
+                <input type="text" id="SmoTruckLoad" name="SmoTruckLoad"><br><br>
+                
+                <label for="DelBikeLoad">Delivery Bikes</label>
+                <input type="text" id="DelBikeLoad" name="DelBikeLoad"><br><br>
+            </div>
+            
+        </div>
         
-        <label for="SmoTruckNo">Smaller / Delivery Vans</label>
-        <input type="text" id="SmoTruckNo" name="SmoTruckNo"><br><br>
-        
-        <label for="DelBikeNo">Delivery Bikes</label>
-        <input type="text" id="DelBikeNo" name="DelBikeNo"><br><br>
+        <div class="botrow">
+            <div class="res">
+                <p>The estimated Fuel cost is: <span class="resval">₹20000</span></p>
+            </div>
+        </div>
     </div>
     
-    <div class="fleet-dist">
-        <p>Enter estimated distance travelled by your Fleet</p>
-        <label for="TruckDist">Freightliners</label>
-        <input type="text" id="TruckDist" name="TruckDist"><br><br>
-
-        <label for="MedTruckDist">Medium Truck</label>
-        <input type="text" id="MedTruckDist" name="MedTruckDist"><br><br>
-        
-        <label for="SmoTruckDist">Smaller / Delivery Vans</label>
-        <input type="text" id="SmoTruckDist" name="SmoTruckDist"><br><br>
-        
-        <label for="DelBikeDist">Delivery Bikes</label>
-        <input type="text" id="DelBikeDist" name="DelBikeDist"><br><br>
-    </div>
-    
-    <div class="fleet-load">
-        <p>Enter estimated distance travelled by your Fleet</p>
-        <label for="TruckDist">Freightliners</label>
-        <input type="text" id="TruckDist" name="TruckDist"><br><br>
-
-        <label for="MedTruckDist">Medium Truck</label>
-        <input type="text" id="MedTruckDist" name="MedTruckDist"><br><br>
-        
-        <label for="SmoTruckDist">Smaller / Delivery Vans</label>
-        <input type="text" id="SmoTruckDist" name="SmoTruckDist"><br><br>
-        
-        <label for="DelBikeDist">Delivery Bikes</label>
-        <input type="text" id="DelBikeDist" name="DelBikeDist"><br><br>
-    </div>
-
-    </div>
     <footer>
         Made with 💚 and <a href="https://www.google.com/search?q=Chai+in+Kolkata">Chai</a> by <a href="https://twitter.com/thedebarshidas">Debarshi Das</a>.
     </footer>
