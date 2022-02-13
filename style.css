@@ -65,6 +65,10 @@ header > h3{
     font-size: 22px;
 }
 
+calrow p{
+    padding: 12px;
+}
+
 .fleet-structure, .fleet-dist, .fleet-load{ 
     display: flex;
     flex-direction: column;
