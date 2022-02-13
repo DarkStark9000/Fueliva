@@ -37,6 +37,14 @@ button{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+input{
+    border: 1px solid #212227;
+    padding: 14px;
+    text-align: center;
+    max-width: 1.2vw;
+    width: 60%;
+    
+}
 header{
     font-family: 'Domine', serif; 
     background-color: var(--raisin-black);
