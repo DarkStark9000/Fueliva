@@ -76,6 +76,8 @@ header{
     justify-content: center;
     align-items: center;
     row-gap: 6vh;
+
+    padding: 24px;
 }
 footer {
     margin: 0;
