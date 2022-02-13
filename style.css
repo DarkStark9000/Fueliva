@@ -78,15 +78,16 @@ header{
     row-gap: 6vh;
 }
 footer {
+    margin: 0;
     font-family: 'Domine', serif; 
     margin-top: 4vh;
     width: 100%;
-    height: 3.5rem;
+    height: 3vh;
     
     background-color: var(--raisin-black);
     color: var(--mauve);
     
-    padding: 16px;
+    padding: 8em;
     text-align: center;
 }
 
