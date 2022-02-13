@@ -41,7 +41,7 @@ header{
     font-family: 'Domine', serif; 
     background-color: var(--raisin-black);
     opacity: 0.8;
-    background-image:  radial-gradient(#212227 0.6px, transparent 0.5px), radial-gradient(#212227 0.6px, #dabfffff 0.5px);
+    background-image:  radial-gradient(#212227 0.6px, #88d18aff 0.4px), radial-gradient(#212227 0.6px, #dabfffff 0.4px);
     background-size: 20px 20px;
     background-position: 0 0,10px 10px;
 
