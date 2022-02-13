@@ -55,13 +55,13 @@ header{
 
 .toprow, .midrow{
     font-size: 18px;
-
+    max-width: 80vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    column-gap: 10vw;
+    column-gap: 6vw;
 }
 
 .calrow{
